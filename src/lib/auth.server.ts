@@ -5,7 +5,7 @@ export { subjects } from '$lib/subjects.server';
 export function createAuthClient(event: RequestEvent) {
 	return createClient({
 		clientID: 'lettuce-auth-test',
-		issuer: 'https://auth.lettucebowler.net',
+		issuer: 'http://localhost:8787',
 		fetch: event.fetch
 	});
 }

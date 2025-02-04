@@ -12,35 +12,35 @@ importers:
         specifier: ^0.14.0
         version: 0.14.0
       drizzle-orm:
-        specifier: ^0.38.4
-        version: 0.38.4(@cloudflare/workers-types@4.20250129.0)(@libsql/client@0.14.0)
+        specifier: ^0.39.1
+        version: 0.39.1(@cloudflare/workers-types@4.20250129.0)(@libsql/client@0.14.0)
     devDependencies:
       '@eslint/compat':
-        specifier: ^1.2.5
+        specifier: ^1.2.6
         version: 1.2.6(eslint@9.19.0(jiti@1.21.7))
       '@eslint/js':
-        specifier: ^9.18.0
+        specifier: ^9.19.0
         version: 9.19.0
       '@openauthjs/openauth':
-        specifier: ^0.3.7
-        version: 0.3.7(arctic@2.3.4)(hono@4.6.20)
+        specifier: 0.3.6
+        version: 0.3.6(arctic@2.3.4)(hono@4.6.20)
       '@sveltejs/adapter-cloudflare':
-        specifier: ^5.0.1
+        specifier: ^5.0.2
         version: 5.0.2(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.7)(vite@6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.7)(vite@6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(wrangler@3.107.2(@cloudflare/workers-types@4.20250129.0))
       '@sveltejs/kit':
-        specifier: ^2.16.0
+        specifier: ^2.17.1
         version: 2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.7)(vite@6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.7)(vite@6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^5.0.0
+        specifier: ^5.0.3
         version: 5.0.3(svelte@5.19.7)(vite@6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.5.1)
       drizzle-kit:
-        specifier: ^0.30.2
+        specifier: ^0.30.4
         version: 0.30.4
       eslint:
-        specifier: ^9.18.0
+        specifier: ^9.19.0
         version: 9.19.0(jiti@1.21.7)
       eslint-config-prettier:
         specifier: ^10.0.1
@@ -58,28 +58,28 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3(prettier@3.4.2)(svelte@5.19.7)
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.10
+        specifier: ^0.6.11
         version: 0.6.11(prettier-plugin-svelte@3.3.3(prettier@3.4.2)(svelte@5.19.7))(prettier@3.4.2)
       svelte:
-        specifier: ^5.0.0
+        specifier: ^5.19.7
         version: 5.19.7
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.1.4
         version: 4.1.4(svelte@5.19.7)(typescript@5.7.3)
       tailwindcss:
-        specifier: ^3.4.17
+        specifier: ^3.0.0
         version: 3.4.17
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.7.3
         version: 5.7.3
       typescript-eslint:
-        specifier: ^8.20.0
+        specifier: ^8.23.0
         version: 8.23.0(eslint@9.19.0(jiti@1.21.7))(typescript@5.7.3)
       valibot:
         specifier: 1.0.0-beta.14
         version: 1.0.0-beta.14(typescript@5.7.3)
       vite:
-        specifier: ^6.0.0
+        specifier: ^6.0.11
         version: 6.0.11(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)
 
 packages:
@@ -864,8 +864,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@openauthjs/openauth@0.3.7':
-    resolution: {integrity: sha512-WSaQlU1/2p4yHRLYT/YAEpMCm+I8T0/khmozKhFYVtO9vH7jpUBTch2SfdQOIVIQuX9KF8+85EeJHp60VBwb/g==}
+  '@openauthjs/openauth@0.3.6':
+    resolution: {integrity: sha512-WZ/53Rc7DLI8W/6ZGvmwoMJAB035Yk1zzf/cKIHfLCoUbzEHKnxRPO2ADLwq992H45X0ZyIJs+YQ9ehoqrSFnQ==}
     peerDependencies:
       arctic: ^2.2.2
       hono: ^4.0.0
@@ -1292,8 +1292,8 @@ packages:
     resolution: {integrity: sha512-B2oJN5UkvwwNHscPWXDG5KqAixu7AUzZ3qbe++KU9SsQ+cZWR4DXEPYcvWplyFAno0dhRJECNEhNxiDmFaPGyQ==}
     hasBin: true
 
-  drizzle-orm@0.38.4:
-    resolution: {integrity: sha512-s7/5BpLKO+WJRHspvpqTydxFob8i1vo2rEx4pY6TGY7QSMuUfWUuzaY0DIpXCkgHOo37BaFC+SJQb99dDUXT3Q==}
+  drizzle-orm@0.39.1:
+    resolution: {integrity: sha512-2bDHlzTY31IDmrYn8i+ZZrxK8IyBD4mPZ7JmZdVDQj2tpBZXs/gxB/1kK5pSvkjxPUMNOVsTnoGkSltgjuJwcA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -2887,7 +2887,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.0
 
-  '@openauthjs/openauth@0.3.7(arctic@2.3.4)(hono@4.6.20)':
+  '@openauthjs/openauth@0.3.6(arctic@2.3.4)(hono@4.6.20)':
     dependencies:
       '@standard-schema/spec': 1.0.0-beta.3
       arctic: 2.3.4
@@ -3296,7 +3296,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.38.4(@cloudflare/workers-types@4.20250129.0)(@libsql/client@0.14.0):
+  drizzle-orm@0.39.1(@cloudflare/workers-types@4.20250129.0)(@libsql/client@0.14.0):
     optionalDependencies:
       '@cloudflare/workers-types': 4.20250129.0
       '@libsql/client': 0.14.0
