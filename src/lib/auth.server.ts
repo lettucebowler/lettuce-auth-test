@@ -2,10 +2,12 @@ import { createClient } from '@openauthjs/openauth/client';
 import type { RequestEvent } from '@sveltejs/kit';
 export { subjects } from '$lib/subjects.server';
 
+import { AUTH_HOST } from '$env/static/private';
+
 export function createAuthClient(event: RequestEvent) {
 	return createClient({
 		clientID: 'lettuce-auth-test',
-		issuer: 'https://auth.lettucebowler.net',
+		issuer: AUTH_HOST ? AUTH_HOST : 'https://auth.lettucebowler.net',
 		fetch: (url: string, options = {}) => {
 			console.log('fetch', url);
 			return event.fetch(url, options);
